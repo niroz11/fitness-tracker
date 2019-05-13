@@ -1,0 +1,45 @@
+main {
+	display: grid;
+	grid-template-areas: 
+		"header header" 
+		"home home"
+		"goals schedule" 
+		"recent stats"
+		"footer footer";
+}
+
+.header{
+	grid-area: header;
+	background-color: pink;
+}
+
+.heading-text {
+	grid-area: home;
+	background-color: magenta;
+}
+
+.goals-section{
+	grid-area: goals;
+	background-color: lime;
+}
+
+.schedule-section{
+	grid-area: schedule;
+	background-color: blue;
+}
+
+.recent-activities-section {
+	grid-area: recent;
+	background-color: yellow;
+
+}
+
+.stats-section{
+	grid-area: stats;
+	background-color: orange;
+}
+
+footer {
+	grid-area: footer;
+	background-color: cyan;
+}
