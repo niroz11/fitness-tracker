@@ -78,9 +78,10 @@ main {
 .goals-section{
 	grid-area: goals;
 	background-color: lime;
+	display: flex;
 }
 
-.schedule-section{
+.info-section{
 	width: 90%;
 	margin: 5%;
 	padding: 1rem;
@@ -107,8 +108,6 @@ main {
 }
 .recent-activities-section {
 	grid-area: recent;
-	background-color: yellow;
-
 }
 
 .running-icon {
@@ -126,3 +125,10 @@ footer {
 	background-color: cyan;
 }
 
+.table{
+	width: 100%;
+}
+
+.small {
+	font-size: 1.5rem;
+}
