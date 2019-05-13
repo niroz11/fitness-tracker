@@ -1,3 +1,7 @@
+body {
+	background: #F2F4F3;
+}
+
 main {
 	display: grid;
 	grid-template-areas: 
@@ -81,7 +85,7 @@ main {
 	margin: 5%;
 	padding: 1rem;
 	grid-area: schedule;
-	background-color: blue;
+	background-color:#ffffff;
 	border-radius: 10px;
 }
 
@@ -108,7 +112,7 @@ main {
 }
 
 .running-icon {
-	font-size: 2rem;
+	font-size: 1.5rem;
 	padding: 5px;
 } 
 
