@@ -5,12 +5,65 @@ main {
 		"home home"
 		"goals schedule" 
 		"recent stats"
-		"footer footer";
+		"footer footer"
 }
 
-.header{
+.header-section{
 	grid-area: header;
-	background-color: pink;
+	background-color: #0d98ba;
+	display: flex;
+	height:100px;
+}
+
+.logo{
+	width:25%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: -10px;
+}
+
+.logo p{
+	font-size: 30px;
+}
+
+
+.fa-running{
+	font-size: 50px;
+	margin-left:0px;
+	align-items:left;
+}
+
+.heading-title{
+	width:60%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+
+}
+
+.heading-title nav a{
+	justify-content: space-between;
+	margin-left:30px;
+}
+
+.login{
+	width:15%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: flex-end;
+
+}
+
+.login div{
+	margin-right:20px;
+}
+
+.login-icon{
+	justify-content: center;
+	align-items: center;
 }
 
 .heading-text {
