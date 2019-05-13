@@ -24,15 +24,40 @@ main {
 }
 
 .schedule-section{
+	width: 90%;
+	margin: 5%;
+	padding: 1rem;
 	grid-area: schedule;
 	background-color: blue;
+	border-radius: 10px;
 }
 
+.week-month {
+	text-transform: uppercase;
+	padding: 5px;
+	border-bottom: 2px solid grey;
+}
+
+.days-of-week{
+	margin: 1rem;
+}
+
+.days-of-week,
+.activity-icons,
+.week-month {
+	display: flex;
+	justify-content: space-around;
+}
 .recent-activities-section {
 	grid-area: recent;
 	background-color: yellow;
 
 }
+
+.running-icon {
+	font-size: 2rem;
+	padding: 5px;
+} 
 
 .stats-section{
 	grid-area: stats;
@@ -43,3 +68,4 @@ footer {
 	grid-area: footer;
 	background-color: cyan;
 }
+
